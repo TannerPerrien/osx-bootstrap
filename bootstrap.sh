@@ -10,6 +10,9 @@
 ####################
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Brew Taps
+brew tap homebrew/cask-drivers
+
 # Brew
 brew install \
 nvm \
